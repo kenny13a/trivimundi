@@ -1,2 +1,2 @@
 # trivimundi
-Educational softwarer
+Educational software
