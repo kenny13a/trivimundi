@@ -1,0 +1,40 @@
+﻿Como jugar:
+Primera pantalla:
+	Al ejecutar el Trivimundi se abrira una pantalla de presentacion,
+	en este punto solo hay que hacer click en el boton empezar o esperar
+	unos segundos.
+Segunda Pantalla:
+	La segunda, es la pantalla de JUGADORES, aqui podra crear un nuevo 
+	jugador, eliminar uno existente o simplemente utilizar los botones
+	 < o > para elegir un jugador ya creado.
+	Utilice el boton jugar para empezar el juego.
+Tercera pantalla:
+	Una vez en el juego, tendra que escribir el nombre de la ciudad a la que
+	hacen referencia las dos imagenes que se le presentaran. 
+	No es importante si las escribe con mayusculas o minusculas, pero no 
+	debe escribir ningun acento y todas las respuestas estan en espaniol. 
+	Una vez escrita la respuesta debe hacer click en ENTER o simplemente 
+	apretar la tecla entrar. Si la respuesta es correcta pasara a la 
+	siguiente pregunta, de lo contrario aparecera un cartel y tendra que
+	volver a intentarlo.
+	Puntaje:
+		Cada respuesta correcta suma 10 puntos, una incorrecta 
+		descuenta 1 y cada vez que utiliza una pista se le 
+		descontaran 3 puntos.
+	Pistas:
+		Ademas de las imagenes, usted cuenta con 3 pistas.
+		Las pistas se visualizan una vez que se haga click en los 
+		botones de pistas que se encuentran en la derecha de la 
+		pantalla.
+	Fin del juego:
+		Una vez terminado el juego se mostrara un cartel 
+		"FIN DEL JUEGO" y se volvera a la pantalla de jugadores.
+	El boton "volver" lo llevara de nuevo a la pantalla de jugadores,
+	y al volver a jugar el juego comenzara en la pregunta en que se 
+	haya quedado. 
+	Si ya ha jugado se le preguntara si desea volver a jugar; 
+	al volver a jugar perdera  todos los puntos obtenidos hasta 
+	ese momento y se comenzara nuevamente.
+
+Dudas y consultas:
+	smaydana@gmail.com
