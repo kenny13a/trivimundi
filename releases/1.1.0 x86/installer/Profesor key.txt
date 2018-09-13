@@ -1,0 +1,4 @@
+Para acceder al Modo Profesor vaya a Juego/Modo Profesor y escriba la contraseña:
+	anubis
+
+Esto le permitirá modificar, eliminar o crear nuevas preguntas.
