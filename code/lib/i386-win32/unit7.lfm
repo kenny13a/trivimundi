@@ -1,0 +1,50 @@
+object Acercade: TAcercade
+  Left = 489
+  Height = 405
+  Top = 233
+  Width = 343
+  AlphaBlendValue = 200
+  BorderIcons = [biSystemMenu]
+  Caption = 'Acerca de Trivimundi'
+  ClientHeight = 405
+  ClientWidth = 343
+  OnClose = FormClose
+  OnShow = FormShow
+  LCLVersion = '1.6.0.4'
+  object Panel1: TPanel
+    Left = 26
+    Height = 301
+    Top = 26
+    Width = 297
+    ClientHeight = 301
+    ClientWidth = 297
+    TabOrder = 0
+    object Label1: TLabel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideLeft.Side = asrCenter
+      Left = 33
+      Height = 390
+      Top = 272
+      Width = 231
+      Alignment = taCenter
+      Caption = 'TRIVIMUNDI'#13#10#13#10'Programado y desarrollado en Lazarus v1.6'#13#10#13#10'Originalmente creado en MS Access para la'#13#10'Segunda Jornada de Juegos Educativos'#13#10'del Instituto Superior del Profesorado'#13#10'Joaquín V. González'#13#10'Profesorado de Educación Superior en '#13#10'Informática'#13#10'2016'#13#10#13#10'Programación y desarrollo original:'#13#10'Cristian Hernán Barbagelata'#13#10'Santiago Hernán Maydana'#13#10#13#10'Desarrollo en Lazarus:'#13#10'Santiago H. Maydana (Kenny)'#13#10#13#10'Este juego educativo esta dedicado'#13#10'a la memoria de mi abuela Elena'#13#10'quien me crio y me impulsó a seguir'#13#10'mis sueños de ser profesor de informática,'#13#10'falleció el 21/10/2016 durante la Jornada'#13#10'de Juegos Educativos dónde fue presentado'#13#10'este Juego.'
+      ParentColor = False
+    end
+  end
+  object Button1: TButton
+    Left = 26
+    Height = 25
+    Top = 336
+    Width = 297
+    Caption = 'Cerrar'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    left = 37
+    top = 41
+  end
+end
