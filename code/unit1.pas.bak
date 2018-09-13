@@ -1,0 +1,71 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, ExtCtrls,
+  StdCtrls, Buttons;
+
+type
+
+  { TPresentacion }
+
+  TPresentacion = class(TForm)
+    Button1: TButton;
+    Fondo: TImage;
+    Image2: TImage;
+    Timer1: TTimer;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
+
+  private
+    { private declarations }
+
+  public
+    { public declarations }
+  end;
+
+var
+  Presentacion: TPresentacion;
+
+implementation
+
+uses
+  Unit2;
+
+{$R *.lfm}
+
+{ TPresentacion }
+
+
+
+procedure TPresentacion.Button1Click(Sender: TObject);    // TODO: Quitar Boton
+begin
+       Jugadores.show;
+       presentacion.hide;
+       Timer1.Enabled:=false;
+end;
+
+procedure TPresentacion.FormCreate(Sender: TObject);
+
+begin
+     Timer1.Enabled:=True;
+     AlphaBlend:=True;
+     Show;
+
+end;
+
+procedure TPresentacion.Timer1Timer(Sender: TObject);
+begin
+     Timer1.Enabled:= false;
+     Jugadores.show;
+     presentacion.hide;
+     AlphaBlend:=false;
+end;
+
+
+end.
+
