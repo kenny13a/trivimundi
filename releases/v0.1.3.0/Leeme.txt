@@ -1,0 +1,31 @@
+﻿  _____   ____    ___  __     __  ___   __  __   _   _   _   _   ____    ___ 
+ |_   _| |  _ \  |_ _| \ \   / / |_ _| |  \/  | | | | | | \ | | |  _ \  |_ _|
+   | |   | |_) |  | |   \ \ / /   | |  | |\/| | | | | | |  \| | | | | |  | | 
+   | |   |  _ <   | |    \ V /    | |  | |  | | | |_| | | |\  | | |_| |  | | 
+   |_|   |_| \_\ |___|    \_/    |___| |_|  |_|  \___/  |_| \_| |____/  |___|
+                                                                             
+																			 
+Creado por:
+	Santiago Hernan Maydana
+	Cristian Hernan Barbagelata
+
+Introduccion:
+	Este juego didactico fue creado y diseñado para uso unicamente educativo.
+Las imagenes o fotos de este juego pueden contar con copyright.
+Este juego fue presentado creado originalmente en MS Access para la materia
+Base de Datos del Profesorado en Informatica del I.S.P. Joaquin V. Gonzalez
+y presentado en la 2da Jornada de Juegos Educativos el 21-10-2016.
+
+Acerca de esta version:
+	Se trata de una BETA (Estado de prueba), con tan solo 6 preguntas de las 25 originales, se
+utilizo el programa Lazarus de FreePASCAL.
+	Al ser una version BETA no todas las funciones podrian funcionar
+correctamente, si usted detecta algun error (bug) o simplemente desea aportar
+ideas a la realizacion de este juego, puede hacerlo enviandonos un correo
+electronico a la siguiente direccion:
+	profe.maydana@gmail.com
+
+Dedicatoria:
+		Dedico este juego a mi abuela, quien me crio junto a mi madre
+	y fallecio el 21-10-2016 a sus 89 años. A ella le hubiera encantado
+	este juego y estaria orgullosa.	

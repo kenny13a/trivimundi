@@ -1,0 +1,42 @@
+  _____   ____    ___  __     __  ___   __  __   _   _   _   _   ____    ___ 
+ |_   _| |  _ \  |_ _| \ \   / / |_ _| |  \/  | | | | | | \ | | |  _ \  |_ _|
+   | |   | |_) |  | |   \ \ / /   | |  | |\/| | | | | | |  \| | | | | |  | | 
+   | |   |  _ <   | |    \ V /    | |  | |  | | | |_| | | |\  | | |_| |  | | 
+   |_|   |_| \_\ |___|    \_/    |___| |_|  |_|  \___/  |_| \_| |____/  |___|
+                                                                             
+																			 
+Creado por:
+	Santiago Hernán Maydana
+	Cristian Hernán Barbagelata
+
+Cómo jugar:
+Primera pantalla:
+	Al ejecutar el Trivimundi se abrirá una pantalla de presentación, en este punto
+solo hay que hacer click en el botón empezar.
+Segunda Pantalla:
+	La segunda, es la pantalla de JUGADORES, aquí podrá crear un nuevo jugador,
+eliminar uno existente o simplemente utilizar los botones < o > para elegir un jugador
+ya creado.
+	Utilice el botón jugar para empezar el juego.
+Tercera pantalla:
+	Una vez en el juego, tendrá que escribir el nombre de la ciudad a la que hacen
+referencia las dos imágenes que se le presentarán. 
+	No es importante si las escribe con mayúsculas o minusculas, pero no debe escribir 
+ningún acento y todas las respuestas están en español. 
+	Una vez escrita la respuesta debe hacer click en ENTER o simplemente apretar la
+tecla entrar. Si la respuesta es correcta pasará a la siguiente pregunta, de lo contrario 
+aparecerá un cartel y tendrá que volver a intentarlo.
+	Cada respuesta correcta suma 10 puntos, una incorrecta descuenta 1 y cada vez que
+utiliza una pista se le descontarán 3 puntos.
+	Las pistas se visualizan una vez que se haga click en los botones de pistas que se
+encuentran en la derecha de la pantalla.
+	Una vez terminado el juego se mostrará un cartel "FIN DEL JUEGO" y se volverá a la
+pantalla de jugadores.
+	El botón "volver" lo llevará de nuevo a la pantalla de jugadores, y al volver a jugar
+el juego comenzará en la pregunta en que se haya quedado. Si ya ha jugado se le preguntará
+si desea volver a jugar; al volver a jugar perderá todos los puntos obtenidos hasta ese
+momento y se comenzará nuevamente.
+
+
+Dudas y consultas:
+	profe.maydana@gmail.com
