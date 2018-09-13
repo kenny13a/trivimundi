@@ -1,0 +1,115 @@
+object Profesor: TProfesor
+  Left = 312
+  Height = 495
+  Top = 153
+  Width = 682
+  Caption = 'Modo Profesor'
+  ClientHeight = 0
+  ClientWidth = 0
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  LCLVersion = '1.6.0.4'
+  object DBGrid1: TDBGrid
+    Left = 17
+    Height = 370
+    Top = 31
+    Width = 640
+    AutoEdit = False
+    AutoFillColumns = True
+    Color = clWindow
+    Columns = <>
+    DataSource = Jugadores.Datos2
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
+    ReadOnly = True
+    Scrollbars = ssAutoVertical
+    TabOrder = 0
+  end
+  object B_editar: TButton
+    Left = 17
+    Height = 25
+    Top = 408
+    Width = 135
+    AutoSize = True
+    Caption = 'Ver / Editar pregunta'
+    OnClick = B_editarClick
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 19
+    Height = 15
+    Top = 9
+    Width = 138
+    Caption = 'Modo profesor: Preguntas'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 17
+    Height = 15
+    Top = 443
+    Width = 99
+    Caption = 'Cambiar pregunta:'
+    ParentColor = False
+  end
+  object DBEdit1: TDBEdit
+    Left = 120
+    Height = 23
+    Top = 440
+    Width = 178
+    DataField = 'pregunta'
+    DataSource = Jugadores.Datos3
+    CharCase = ecNormal
+    MaxLength = 0
+    TabOrder = 2
+  end
+  object B_agregar: TButton
+    Left = 155
+    Height = 25
+    Top = 408
+    Width = 157
+    AutoSize = True
+    Caption = 'Agregar pregunta al final'
+    OnClick = B_agregarClick
+    TabOrder = 3
+  end
+  object B_eliminar: TButton
+    Left = 312
+    Height = 25
+    Top = 408
+    Width = 120
+    AutoSize = True
+    Caption = 'Eliminar pregunta'
+    OnClick = B_eliminarClick
+    TabOrder = 4
+  end
+  object B_salir: TButton
+    Left = 478
+    Height = 25
+    Top = 408
+    Width = 179
+    AutoSize = True
+    Caption = 'SALIR DEL MODO PROFESOR'
+    OnClick = B_salirClick
+    TabOrder = 5
+  end
+  object B_recno: TButton
+    Left = 328
+    Height = 25
+    Top = 448
+    Width = 129
+    AutoSize = True
+    Caption = 'Numero de registro'
+    OnClick = B_recnoClick
+    TabOrder = 6
+  end
+  object B_reccant: TButton
+    Left = 464
+    Height = 25
+    Top = 448
+    Width = 138
+    AutoSize = True
+    Caption = 'Cantidad de registros'
+    OnClick = B_reccantClick
+    TabOrder = 7
+  end
+end
