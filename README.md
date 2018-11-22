@@ -11,6 +11,7 @@ Educational software
 																		 
 Creado por:
 	Santiago Hernan Maydana
+	&
 	Cristian Hernan Barbagelata
 
 Introduccion:
